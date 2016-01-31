@@ -2,8 +2,8 @@ EAPI=5
 
 inherit font
 
-DESCRIPTION="the font"
-HOMEPAGE="https://github.com/lucy/tewi-font"
+DESCRIPTION="classic unicode fonts"
+HOMEPAGE="http://pelulamu.net/unscii/"
 SRC_URI="
 	http://pelulamu.net/unscii/unscii-16.pcf
 	http://pelulamu.net/unscii/unscii-16-full.pcf

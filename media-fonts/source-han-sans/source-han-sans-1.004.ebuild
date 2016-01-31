@@ -1,7 +1,8 @@
 EAPI=5
+
 inherit font
 
-DESCRIPTION="Sans serif pan-CJK fonts"
+DESCRIPTION="sans serif pan-CJK fonts"
 HOMEPAGE="https://github.com/adobe-fonts/source-han-sans"
 SRC_URI="https://github.com/adobe-fonts/${PN}/archive/${PV}R.tar.gz -> ${P}R.tar.gz"
 

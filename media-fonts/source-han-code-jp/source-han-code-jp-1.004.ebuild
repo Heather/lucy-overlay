@@ -1,7 +1,8 @@
 EAPI=5
+
 inherit font
 
-DESCRIPTION="Serif font family designed to complement Source Sans Pro"
+DESCRIPTION="japanese font based on source-code-pro"
 HOMEPAGE="https://github.com/adobe-fonts/source-han-code-jp"
 SRC_URI="https://github.com/adobe-fonts/${PN}/archive/${PV}R.tar.gz -> ${P}R.tar.gz"
 

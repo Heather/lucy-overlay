@@ -4,7 +4,7 @@ inherit font
 IT_V="1.075R-it"
 RO_V="2.020R-ro"
 
-DESCRIPTION="Sans serif font family for user interface environments"
+DESCRIPTION="sans serif font family for UIs"
 HOMEPAGE="https://github.com/adobe-fonts/source-sans-pro"
 SRC_URI="https://github.com/adobe-fonts/${PN}/archive/${RO_V}/${IT_V}.tar.gz -> ${P}-${RO_V}-${IT_V}.tar.gz"
 

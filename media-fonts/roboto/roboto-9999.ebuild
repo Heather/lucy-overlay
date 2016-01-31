@@ -2,7 +2,7 @@ EAPI=5
 
 inherit font git-r3
 
-DESCRIPTION="Standard font for Android 4.0 (Ice Cream Sandwich) and later"
+DESCRIPTION="standard font for Android 4 and later"
 HOMEPAGE="http://developer.android.com/design/style/typography.html"
 EGIT_REPO_URI="https://github.com/google/roboto.git"
 

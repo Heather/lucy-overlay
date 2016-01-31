@@ -2,7 +2,7 @@ EAPI=6
 
 inherit git-r3
 
-DESCRIPTION="Kona is an open-source implementation of the K programming language"
+DESCRIPTION="open source implementation of the K programming language"
 HOMEPAGE="https://github.com/kevinlawler/kona"
 EGIT_REPO_URI='https://github.com/kevinlawler/kona.git'
 

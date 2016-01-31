@@ -1,6 +1,6 @@
 EAPI=6
 
-DESCRIPTION="Grounding tools for (disjunctive) logic programs."
+DESCRIPTION="grounding tools for (disjunctive) logic programs"
 HOMEPAGE="http://potassco.sourceforge.net/"
 SRC_URI="http://downloads.sourceforge.net/project/potassco/${PN}/${PV}/${P}-source.tar.gz"
 

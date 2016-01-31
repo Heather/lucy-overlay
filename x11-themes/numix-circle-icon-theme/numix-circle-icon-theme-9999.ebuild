@@ -2,7 +2,7 @@ EAPI=6
 
 inherit gnome2-utils git-r3
 
-DESCRIPTION="A scalable icon theme called Faenza"
+DESCRIPTION="circle icon theme from the Numix project"
 HOMEPAGE="https://github.com/numixproject/numix-icon-theme-circle"
 EGIT_REPO_URI="https://github.com/numixproject/numix-icon-theme-circle.git"
 

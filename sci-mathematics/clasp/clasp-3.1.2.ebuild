@@ -1,6 +1,6 @@
 EAPI=6
 
-DESCRIPTION="A conflict-driven nogood learning answer set solver."
+DESCRIPTION="conflict-driven nogood learning answer set solver"
 HOMEPAGE="http://potassco.sourceforge.net/"
 SRC_URI="http://downloads.sourceforge.net/project/potassco/${PN}/${PV}/${P}-source.tar.gz"
 

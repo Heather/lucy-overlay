@@ -1,7 +1,7 @@
 EAPI=5
 inherit font
 
-DESCRIPTION="Serif font family designed to complement Source Sans Pro"
+DESCRIPTION="serif font family complementing source-sans-pro"
 HOMEPAGE="https://github.com/adobe-fonts/source-serif-pro"
 SRC_URI="https://github.com/adobe-fonts/${PN}/archive/${PV}R.tar.gz -> ${P}R.tar.gz"
 

@@ -1,6 +1,6 @@
 EAPI=6
 
-DESCRIPTION="creates of stage 1 init binaries for s6-based Linux systems"
+DESCRIPTION="creates of stage 1 init binaries for s6-based systems"
 HOMEPAGE="http://www.skarnet.org/software/s6-linux-init"
 SRC_URI="http://www.skarnet.org/software/${PN}/${P}.tar.gz"
 

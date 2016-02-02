@@ -14,7 +14,7 @@ SRC_URI="
 	http://pelulamu.net/unscii/unscii-8-mcr.pcf
 	http://pelulamu.net/unscii/unscii-8-fantasy.pcf"
 
-LICENSE="MIT"
+LICENSE="public-domain GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm"
 IUSE=""

@@ -10,9 +10,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
 
-IUSE="bdf +pcf"
-
-REQUIRED_USE="( || ( bdf pcf ) )"
+IUSE="+pcf"
 
 DEPEND="
 	x11-libs/libX11
@@ -23,7 +21,10 @@ src_compile() { if use pcf; then emake; fi; }
 
 src_install() {
 	insinto "/usr/share/fonts/${PN}"
-	if use pcf; then doins out/*; fi
-	if use bdf; then doins *.bdf; fi
+	if use pcf; then
+		doins out/*
+	else
+		doins *.bdf
+	fi
 	font_src_install
 }

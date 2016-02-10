@@ -12,7 +12,7 @@ IUSE=""
 
 DEPEND="
 	dev-vcs/git
-	app-shells/bash"
+	app-shells/bash:0"
 RDEPEND="${DEPEND}"
 
 src_install() {

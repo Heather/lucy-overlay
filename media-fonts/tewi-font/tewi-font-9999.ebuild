@@ -1,8 +1,10 @@
-EAPI=5
+EAPI=6
 
-inherit git-r3 font
+PYTHON_COMPAT=( python{2_7,3_3,3_4,3_5} )
 
-DESCRIPTION="the font"
+inherit git-r3 font python-any-r1 
+
+DESCRIPTION="a bitmap font"
 HOMEPAGE="https://github.com/lucy/tewi-font"
 EGIT_REPO_URI="https://github.com/lucy/tewi-font.git"
 
@@ -13,6 +15,7 @@ KEYWORDS=""
 IUSE="+pcf"
 
 DEPEND="
+	${PYTHON_DEPS}
 	x11-libs/libX11
 	pcf? ( x11-apps/bdftopcf )"
 RDEPEND="x11-libs/libX11"

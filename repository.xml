@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>lucy-overlay</name>
+		<description lang="en">Lucy's public overlay</description>
+		<homepage>https://github.com/lucy/lucy-overlay</homepage>
+		<owner type="person">
+			<name>Lucy</name>
+			<email>lucy@luz.lu</email>
+		</owner>
+		<source type="git">https://github.com/lucy/lucy-overlay.git</source>
+		<feed>https://github.com/lucy/lucy-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>

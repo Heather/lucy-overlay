@@ -1,11 +1,10 @@
 EAPI=6
 
-DESCRIPTION="Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed."
+DESCRIPTION="Telegram is a cloud-based mobile and desktop messaging app"
 HOMEPAGE="https://telegram.org/"
 SRC_URI="
 	amd64? ( https://updates.tdesktop.com/tlinux/tsetup.${PV}.tar.xz )
-	x86? ( https://updates.tdesktop.com/tlinux32/tsetup32.${PV}.tar.xz )
-"
+	x86? ( https://updates.tdesktop.com/tlinux32/tsetup32.${PV}.tar.xz )"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -17,7 +16,7 @@ RESTRICT="strip mirror"
 DEPEND="
 	x11-libs/libX11
 	x11-libs/libxcb
-	dev-libs/glib
+	dev-libs/glib:*
 	x11-libs/libXau
 	x11-libs/libXdmcp"
 RDEPEND="${DEPEND}"

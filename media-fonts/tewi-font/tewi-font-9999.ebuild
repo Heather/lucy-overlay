@@ -2,7 +2,7 @@ EAPI=6
 
 PYTHON_COMPAT=( python{2_7,3_3,3_4,3_5} )
 
-inherit font python-any-r1 
+inherit font python-any-r1
 
 DESCRIPTION="a bitmap font"
 HOMEPAGE="https://github.com/lucy/tewi-font"

@@ -4,7 +4,7 @@ To use this repo,
 add it to your `/etc/portage/repos.conf`
 or use layman like so:
 ```
-# layman -f -o https://raw.github.com/lucy/lucy-overlay/master/repository.xml -a lucy
+# layman -f -o https://raw.github.com/lucy/lucy-overlay/master/repository.xml -a lucy-overlay
 ```
 
 # TODO

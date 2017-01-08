@@ -10,7 +10,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""
 
-S="${S}/hinted"
+S="${S}/src/hinted"
 FONT_S="${S}"
 FONT_SUFFIX="ttf"
 FONT_CONF=( "${FILESDIR}/90-roboto-regular.conf" )

@@ -14,7 +14,7 @@ DEPEND="
 	sci-mathematics/aspcud"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/opam-full-${PV}-rc2"
+S="${WORKDIR}/opam-full-${PV}"
 
 src_compile() {
 	emake -j1 lib-ext

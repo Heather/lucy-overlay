@@ -1,4 +1,4 @@
-EAPI=5
+EAPI=6
 
 inherit font
 
@@ -11,14 +11,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-S="${WORKDIR}"
-FONT_S="${S}"
+S="${WORKDIR}/${P}R"
+FONT_S="${S}/OTC"
 FONT_SUFFIX="ttc"
 RESTRICT="binchecks strip"
-
-src_prepare() {
-	mv "${P}R"/OTC/*.ttc . || die
-}
 
 src_install() {
 	font_src_install

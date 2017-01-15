@@ -1,4 +1,5 @@
-EAPI=5
+EAPI=6
+
 inherit font
 
 DESCRIPTION="serif font family complementing source-sans-pro"

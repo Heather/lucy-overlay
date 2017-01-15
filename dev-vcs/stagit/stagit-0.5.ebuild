@@ -13,7 +13,6 @@ HOMEPAGE="http://git.2f30.org/stagit/file/README.html"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
 IUSE=""
 
 RDEPEND=">=dev-libs/libgit2-0.22"

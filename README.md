@@ -6,6 +6,3 @@ or use layman like so:
 ```
 # layman -f -o https://raw.github.com/lucy/lucy-overlay/master/repository.xml -a lucy-overlay
 ```
-
-# TODO
-* proper versioned dependencies and static support for skarnet packages

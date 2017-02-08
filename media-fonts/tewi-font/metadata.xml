@@ -2,6 +2,6 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 <use>
-	<flag name='pcf'>Build and install pcf instead of bdf files</flag>
+	<flag name='pcf'>Build and install .pcfs files instead of .bdf files</flag>
 </use>
 </pkgmetadata>
